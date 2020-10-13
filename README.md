@@ -3,7 +3,7 @@
 [toc]
 
 ## 1. tfvars Sample
-> ```json
+> ```terraform
 >   aws = {
 >       "region" = "AWS Region ID"
 >       "profile" = "AWS CLI Profile Name from ~/.aws/credentials or config"
@@ -55,7 +55,7 @@
 
 ## 2. Module Usage
 
-> ```bash
+> ```terraform
 >module "iam-policy" {
 >   source      = "anthunt/iam-assume-role/aws"
 >   version     = "0.0.1"
@@ -66,7 +66,7 @@
 
 ## 3. variables.tf Example
 
->```bash
+>```terraform
 > variable "aws" {
 >     type = object({
 >         region  = string
