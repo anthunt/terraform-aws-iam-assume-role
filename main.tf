@@ -40,7 +40,7 @@ resource aws_iam_role assume_role {
     assume_role_policy = data.aws_iam_policy_document.role-document[each.key].json
 }
 
-resource aws_iam_role_policy_attachment "administrator-full-access" {
+resource aws_iam_role_policy_attachment "policy_attachments" {
     for_each = {
         for policy in local.policy_arns : "${policy.role_name}.${policy.policy_key}" => policy
     }
