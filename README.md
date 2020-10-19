@@ -1,5 +1,7 @@
 # Managing AWS IAM Assume Role [ terraform-aws-iam-assume-role ]
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a27b392189174e6182993651f64925f6)](https://app.codacy.com/gh/anthunt/terraform-aws-iam-assume-role?utm_source=github.com&utm_medium=referral&utm_content=anthunt/terraform-aws-iam-assume-role&utm_campaign=Badge_Grade)
+
 [toc]
 
 ## 1. tfvars Sample
